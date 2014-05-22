@@ -1,0 +1,6 @@
+node_modules
+/node_modules/
+/npm_test.bat
+/npm_test_debug.bat
+/nbproject/*
+/src/nbproject/*

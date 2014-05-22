@@ -1,0 +1,1 @@
+{ "options" : { "create" : "cases" }, "indexes" : [ { "v" : 1, "key" : { "_id" : 1 }, "ns" : "sistema-casos.cases", "name" : "_id_" } ] }

@@ -1,0 +1,22 @@
+{
+  "name": "API-Sistema-de-Control",
+  "version": "0.0.1",
+  "dependencies": {
+    "password-hash": "~1.2.1",
+    "token": "0.0.0",
+    "pdfkit": "~0.4.3"
+  },
+  "devDependencies": {
+    "async": "*",
+    "mongoosastic": "*",
+    "mongoose": "*",
+    "restify": "*",
+    "underscore": "*"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  }
+}

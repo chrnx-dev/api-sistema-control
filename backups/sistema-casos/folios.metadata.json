@@ -1,0 +1,1 @@
+{ "options" : { "create" : "folios" }, "indexes" : [ { "v" : 1, "key" : { "_id" : 1 }, "ns" : "sistema-casos.folios", "name" : "_id_" } ] }
