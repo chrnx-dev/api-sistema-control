@@ -13,8 +13,8 @@ var server = restify.createServer({
 
 server.use(restify.queryParser());
 server.use(restify.bodyParser());
-server.use(restify.CORS({'origins': ['http://localhost', 'https://domain.my.com', 'https://anotherDomain.my.com']}));
 server.use(restify.fullResponse());
+server.use(restify.CORS();
 
 server.get('/v1', function(req, res, next){
   res.send({
